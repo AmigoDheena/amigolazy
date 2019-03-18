@@ -1,0 +1,15 @@
+<footer class="center">
+  <div class="measure">
+    <small>
+      Hosted on <a href="https://pages.github.com/">Github Pages</a> <br>
+      Theme <a href="https://github.com/johnotander/pixyll">Pixll</a> is crafted by <a href="http://johnotander.com">John Otander</a>.<br>
+      Copyright © 2018 Klein Mioke. 
+    </small>
+  </div>
+</footer>
+{% if site.enable_anchorjs %}<!-- AnchorJS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/3.0.0/anchor.min.js"></script>
+<script>
+    anchors.options.visible = 'always';
+    anchors.add('article h2, article h3, article h4, article h5, article h6');
+</script>{% endif %}
