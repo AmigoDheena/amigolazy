@@ -1,8 +1,6 @@
-
 <!DOCTYPE html>
 <html>
-<head>
-    
+<head>    
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>AmigoLazy &#8211; amigolazy</title>
@@ -13,30 +11,18 @@
     <meta name="description" content="Lazyload script for Images and Iframe">
     <meta name="robots" content="all">
     <meta name="author" content="">
-    
-    
     <link rel="canonical" href="https://amigodheena.github.io/amigolazy/">
     <link rel="alternate" type="application/rss+xml" title="RSS Feed for amigolazy" href="/amigolazy/feed.xml" />
-
     <!-- Custom CSS -->
     <link rel="stylesheet" href="/amigolazy/css/pixyll.css?201903181104" type="text/css">
-
     <!-- Fonts -->
-    
     <link href='//fonts.googleapis.com/css?family=Merriweather:900,900italic,300,300italic' rel='stylesheet' type='text/css'>
     <link href='//fonts.googleapis.com/css?family=Lato:900,300' rel='stylesheet' type='text/css'>
-    
-    
-
     <!-- MathJax -->
-    
 
     <!-- Verifications -->
-    
-    
 
     <!-- Open Graph -->
-    <!-- From: https://github.com/mmistakes/hpstr-jekyll-theme/blob/master/_includes/head.html -->
     <meta property="og:locale" content="">
     <meta property="og:type" content="article">
     <meta property="og:title" content="AmigoLazy">
@@ -46,8 +32,7 @@
     
 
     <!-- Twitter Card -->
-    <meta name="twitter:card" content="summary" />
-    
+    <meta name="twitter:card" content="summary" />    
     <meta name="twitter:title" content="AmigoLazy" />
     <meta name="twitter:description" content="Lazyload script for Images and Iframe" />
     <meta name="twitter:url" content="https://amigodheena.github.io/" />
@@ -67,94 +52,69 @@
     <link rel="icon" type="image/png" href="/favicon-160x160.png" sizes="160x160">
     <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
     <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
-    <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
-
-    
+    <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">    
 </head>
-
+<style>
+  *{box-sizing:border-box}body{margin:0;font-family:Arial}.header{text-align:center;padding:32px}.row{display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;padding:0 4px}.column{-ms-flex:25%;flex:25%;max-width:25%;padding:0 4px}.column img{margin-top:8px;vertical-align:middle}@media screen and (max-width:800px){.column{-ms-flex:50%;flex:50%;max-width:50%}}@media screen and (max-width:600px){.column{-ms-flex:100%;flex:100%;max-width:100%}} iframe.amigo-lazy {background: url(/w3images/lg.-text-entering-comment-loader.gif) no-repeat center center}
+  </style>
 <body class="site">
-  
-	
-
   <div class="site-wrap">
     <header class="site-header px2 px-responsive">
   <div class="mt2 wrap">
     <div class="measure">
       <a href="https://amigodheena.github.io" class="site-title">AMIGOLAZY</a>
-      <nav class="site-nav">
-        
-    
-
-    
-
-    
-
-
-    
-
-    
-
-    
-
-
+      <nav class="site-nav">    
       </nav>
       <div class="clearfix"></div>
-      
     </div>
   </div>
 </header>
-
 
     <div class="post p2 p-responsive wrap" role="main">
       <div class="measure">
         <div class="post">
   <header class="post-header">
-    <h1 class="h2">AmigoLazy</h1>
   </header>
-  <article class="post-content">
-  <h1 id="amigolazy">AmigoLazy</h1>
-
-<h4 id="how-to-use-amigolazy">How to use amigolazy</h4>
-
-<ul>
-  <li>Add this js file to your webpage</li>
-</ul>
-
-<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;script </span><span class="na">src=</span><span class="s">"https://cdn.jsdelivr.net/gh/amigodheena/amigolazy@master/amigolazy.js"</span><span class="nt">&gt;&lt;/script&gt;</span>
-</code></pre></div></div>
-<ul>
-  <li>
-    <p>Add <code class="highlighter-rouge">class="amigo-lazy"</code></p>
-  </li>
-  <li>
-    <p><code class="highlighter-rouge">lazy="5000"</code> set your lazy time as millisecond</p>
-  </li>
-  <li>
-    <p>replace <code class="highlighter-rouge">src=""</code> as  <code class="highlighter-rouge">data-src=""</code></p>
-  </li>
-</ul>
-
-<h5 id="image">Image</h5>
-
-<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">"/wedding.jpg"</span> <span class="na">style=</span><span class="s">"width:100%"</span><span class="nt">&gt;</span> 
-<span class="nt">&lt;img</span> <span class="na">class=</span><span class="s">"amigo-lazy"</span> <span class="na">lazy=</span><span class="s">"5000"</span> <span class="na">data-src=</span><span class="s">"/wedding.jpg"</span> <span class="na">style=</span><span class="s">"width:100%"</span><span class="nt">&gt;</span>
-</code></pre></div></div>
-<h5 id="iframe">Iframe</h5>
-<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;iframe</span> <span class="na">width=</span><span class="s">"949"</span> <span class="na">height=</span><span class="s">"534"</span> <span class="na">src=</span><span class="s">"https://www.youtube.com/embed/JvEvTcXF-4Q"</span> <span class="na">frameborder=</span><span class="s">"0"</span> <span class="na">allowfullscreen</span><span class="nt">&gt;&lt;/iframe&gt;</span>
-
-<span class="nt">&lt;iframe</span> <span class="na">class=</span><span class="s">"amigo-lazy"</span> <span class="na">width=</span><span class="s">"949"</span> <span class="na">lazy=</span><span class="s">"5000"</span> <span class="na">height=</span><span class="s">"534"</span> <span class="na">data-src=</span><span class="s">"https://www.youtube.com/embed/JvEvTcXF-4Q"</span> <span class="na">frameborder=</span><span class="s">"0"</span> <span class="na">allowfullscreen</span><span class="nt">&gt;&lt;/iframe&gt;</span>
-</code></pre></div></div>
-
-<h3 id="with-special-thanks-to">With Special Thanks To!</h3>
-<p><img src="https://www.askantech.com/wp-content/uploads/2018/11/askan-trademark-logo.png" alt="Alt" title="Askan" /></p>
-
-  </article>
-</div>
-
-      </div>
-    </div>
+  <h3>Iframe</h3>
+  <iframe class="amigo-lazy" lazy="1000" width="840" height="534" data-src="https://www.youtube.com/embed/JvEvTcXF-4Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <!-- Photo Grid -->
+  <h3>Images</h3>
+<div class="row"> 
+  <div class="column">
+    <img class="amigo-lazy" lazy="1000" data-src="/w3images/wedding.jpg" style="width:100%">
+    <img class="amigo-lazy" lazy="2000" data-src="/w3images/rocks.jpg" style="width:100%">
+    <img class="amigo-lazy" lazy="3000" data-src="/w3images/falls2.jpg" style="width:100%">
+    <img class="amigo-lazy" lazy="4000" data-src="/w3images/paris.jpg" style="width:100%">
+    <img class="amigo-lazy" lazy="5000" data-src="/w3images/nature.jpg" style="width:100%">
+    <img class="amigo-lazy" lazy="6000" data-src="/w3images/mist.jpg" style="width:100%">
+    <img class="amigo-lazy" lazy="5000" data-src="/w3images/paris.jpg" style="width:100%">
   </div>
-
+  <div class="column">
+    <img class="amigo-lazy" lazy="1000" data-src="/w3images/underwater.jpg" style="width:100%">
+    <img class="amigo-lazy" lazy="2000" data-src="/w3images/ocean.jpg" style="width:100%">
+    <img class="amigo-lazy" lazy="3000" data-src="/w3images/wedding.jpg" style="width:100%">
+    <img class="amigo-lazy" lazy="4000" data-src="/w3images/mountainskies.jpg" style="width:100%">
+    <img class="amigo-lazy" lazy="5000" data-src="/w3images/rocks.jpg" style="width:100%">
+    <img class="amigo-lazy" lazy="6000" data-src="/w3images/underwater.jpg" style="width:100%">
+  </div>  
+  <div class="column">
+    <img class="amigo-lazy" lazy="1000" data-src="/w3images/wedding.jpg" style="width:100%">
+    <img class="amigo-lazy" lazy="2000" data-src="/w3images/rocks.jpg" style="width:100%">
+    <img class="amigo-lazy" lazy="3000" data-src="/w3images/falls2.jpg" style="width:100%">
+    <img class="amigo-lazy" lazy="4000" data-src="/w3images/paris.jpg" style="width:100%">
+    <img class="amigo-lazy" lazy="5000" data-src="/w3images/nature.jpg" style="width:100%">
+    <img class="amigo-lazy" lazy="6000" data-src="/w3images/mist.jpg" style="width:100%">
+    <img class="amigo-lazy" lazy="5000" data-src="/w3images/paris.jpg" style="width:100%">
+  </div>
+  <div class="column">
+    <img class="amigo-lazy" lazy="1000" data-src="/w3images/underwater.jpg" style="width:100%">
+    <img class="amigo-lazy" lazy="2000" data-src="/w3images/ocean.jpg" style="width:100%">
+    <img class="amigo-lazy" lazy="3000" data-src="/w3images/wedding.jpg" style="width:100%">
+    <img class="amigo-lazy" lazy="4000" data-src="/w3images/mountainskies.jpg" style="width:100%">
+    <img class="amigo-lazy" lazy="5000" data-src="/w3images/rocks.jpg" style="width:100%">
+    <img class="amigo-lazy" lazy="6000" data-src="/w3images/underwater.jpg" style="width:100%">
+  </div>
+</div>
   <footer class="center">
   <div class="measure">
     <small>
@@ -163,8 +123,7 @@
       Copyright © 2018 Klein Mioke. 
     </small>
   </div>
+  <script src="https://cdn.jsdelivr.net/gh/amigodheena/amigolazy@master/amigolazy.js"></script>
 </footer>
-
-
 </body>
 </html>
