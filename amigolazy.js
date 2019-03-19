@@ -5,5 +5,6 @@ for(let i=0; i<amframe.length;i++){
     let datanew = amsrc.getAttribute("lazy");
     setTimeout(function(){
     amframe[i].setAttribute("src",amdata);
+    console.info(datanew + "ms Lazyloaded " + amframe[i].src);
 }, datanew);
 }
