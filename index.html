@@ -20,16 +20,13 @@
     <link href='//fonts.googleapis.com/css?family=Lato:900,300' rel='stylesheet' type='text/css'>
     <!-- MathJax -->
 
-    <!-- Verifications -->
-
     <!-- Open Graph -->
     <meta property="og:locale" content="">
     <meta property="og:type" content="article">
     <meta property="og:title" content="AmigoLazy">
     <meta property="og:description" content="Lazyload script for Images and Iframe">
     <meta property="og:url" content="https://amigodheena.github.io/amigolazy">
-    <meta property="og:site_name" content="amigolazy">
-    
+    <meta property="og:site_name" content="amigolazy">   
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary" />    
@@ -39,14 +36,14 @@
     
 </head>
 <style>
-  *{box-sizing:border-box}body{margin:0;font-family:Arial}.header{text-align:center;padding:32px}.row{display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;padding:0 4px}.column{-ms-flex:25%;flex:25%;max-width:25%;padding:0 4px}.column img{margin-top:8px;vertical-align:middle}@media screen and (max-width:800px){.column{-ms-flex:50%;flex:50%;max-width:50%}}@media screen and (max-width:600px){.column{-ms-flex:100%;flex:100%;max-width:100%}} iframe.amigo-lazy {background: url(/amigolazy/w3images/lg.-text-entering-comment-loader.gif) no-repeat center center}img[data-src]{display: block;min-height: 100px;background-color: #c0c0c0;}
+  *{box-sizing:border-box}body{margin:0;font-family:Arial}.header{text-align:center;padding:32px}.row{display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;padding:0 4px;}.column{-ms-flex:25%;flex:25%;max-width:25%;padding:0 4px}.column img{margin-top:8px;vertical-align:middle}@media screen and (max-width:800px){.column{-ms-flex:50%;flex:50%;max-width:50%}}@media screen and (max-width:600px){.column{-ms-flex:100%;flex:100%;max-width:100%}} iframe.amigo-lazy {background: url(/w3images/lg.-text-entering-comment-loader.gif) no-repeat center center}img[data-src]{display: block;min-height: 100px;background-color: #c0c0c0;}pre{font-size:75%}p{font-size: 16px}
   </style>
 <body class="site">
   <div class="site-wrap">
     <header class="site-header px2 px-responsive">
   <div class="mt2 wrap">
     <div class="measure">
-      <a href="https://amigodheena.github.io" class="site-title">AMIGOLAZY</a>
+      <a href="https://amigodheena.github.io/amigolazy" class="site-title">AMIGOLAZY</a>
       <nav class="site-nav">    
       </nav>
       <div class="clearfix"></div>
@@ -59,11 +56,22 @@
         <div class="post">
   <header class="post-header">
   </header>
-  <h3>Iframe</h3>
-  <iframe class="amigo-lazy" lazy="1000" width="840" height="534" data-src="https://www.youtube.com/embed/JvEvTcXF-4Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <h4>How to use amigolazy</h4>  
+<p>Add this js file to your webpage</p>
+<div style="background: #ffffff; overflow:auto;width:auto;padding:.2em .6em;">
+<pre style="margin: 0; line-height: 125%"><span style="color: #007700">&lt;script </span><span style="color: #0000CC">src=</span><span style="background-color: #fff0f0">&quot;https://cdn.jsdelivr.net/gh/amigodheena/amigolazy@master/amigolazy.js&quot;</span><span style="color: #007700">&gt;&lt;/script&gt;</span>
+</pre><pre style="margin: 0; line-height: 125%">Add <span style="color: #007700">class</span><span style="color: #333333">=</span><span style="background-color: #fff0f0">&quot;amigo-lazy&quot;</span></pre><pre style="margin: 0; line-height: 125%"><span style="color: #007700">lazy</span><span style="color: #333333">=</span><span style="background-color: #fff0f0">&quot;5000&quot;</span> set your lazy time as millisecond</pre><pre style="margin: 0; line-height: 125%"><span style="color: #007700">replace</span> <span style="color: #007700">src</span><span style="color: #333333">=</span><span style="background-color: #fff0f0">&quot;&quot;</span> as <span style="color: #007700">data-src</span><span style="color: #333333">=</span><span style="background-color: #fff0f0">&quot;&quot;</span></pre></div>
+
+<h3>Iframe</h3>
+<div style="background: #ffffff; overflow:auto;width:auto;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007700">&lt;iframe</span> <span style="color: #0000CC">class=</span><span style="background-color: #fff0f0">&quot;amigo-lazy&quot;</span> <span style="color: #0000CC">width=</span><span style="background-color: #fff0f0">&quot;949&quot;</span> <span style="color: #0000CC">lazy=</span><span style="background-color: #fff0f0">&quot;5000&quot;</span> <span style="color: #0000CC">height=</span><span style="background-color: #fff0f0">&quot;534&quot;</span> <span style="color: #0000CC">data-src=</span><span style="background-color: #fff0f0">
+    &quot;https://www.youtube.com/embed/JvEvTcXF-4Q&quot;</span> <span style="color: #0000CC">frameborder=</span><span style="background-color: #fff0f0">&quot;0&quot;</span> <span style="color: #0000CC">allowfullscreen</span><span style="color: #007700">&gt;&lt;/iframe&gt;</span>
+</pre></div>
+
+  <iframe class="amigo-lazy" lazy="5000" width="840" height="534" data-src="https://www.youtube.com/embed/JvEvTcXF-4Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   <!-- Photo Grid -->
   <h3>Images</h3>
-<div class="row"> 
+  <div style="background: #ffffff; overflow:auto;width:auto;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #007700">&lt;img</span> <span style="color: #0000CC">class=</span><span style="background-color: #fff0f0">&quot;amigo-lazy&quot;</span> <span style="color: #0000CC">lazy=</span><span style="background-color: #fff0f0">&quot;1000&quot;</span> <span style="color: #0000CC">data-src=</span><span style="background-color: #fff0f0">&quot;image.jpg&quot;</span><span style="color: #007700">&gt;</span>
+</pre></div>
   <div class="column">
     <img class="amigo-lazy" lazy="1000" data-src="/amigolazy/w3images/wedding.jpg" style="width:100%">
     <img class="amigo-lazy" lazy="2000" data-src="/amigolazy/w3images/rocks.jpg" style="width:100%">
