@@ -25,6 +25,18 @@
 
 <iframe class="amigo-lazy" width="949" lazy="5000" height="534" data-src="https://www.youtube.com/embed/JvEvTcXF-4Q" frameborder="0" allowfullscreen></iframe>
 ```
+##### Preventing Content Reflow 
+
+```css
+  img[data-src]{
+      display: block;
+      min-height: 100px; /*as per your requirement*/
+      background-color: #c0c0c0; /* optional */
+  }
+```
+#### Contributors
+* **Munusamy**  - [Sadishsamy](https://github.com/sadishsamy)
+* **Mohan**  - [moaj257](https://github.com/moaj257)
 
 ### With Special Thanks To!
-![Alt](https://www.askantech.com/wp-content/uploads/2018/11/askan-trademark-logo.png "Askan")
+<a href="https://www.askantech.com"><img alt="Askan" src="https://www.askantech.com/wp-content/uploads/2018/11/askan-trademark-logo.png"/></a>
