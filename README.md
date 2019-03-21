@@ -7,7 +7,7 @@
 ```html
 <script src="https://cdn.jsdelivr.net/gh/amigodheena/amigolazy@master/amigolazy.js"></script>
 ```
-  - Add ``` class="amigo-lazy" ```
+  - Add ``` class="lazy" ```
 
   -  ``` lazy="5000" ``` set your lazy time as millisecond
 
@@ -17,13 +17,13 @@
 
 ```html
 <img src="/wedding.jpg" style="width:100%"> 
-<img class="amigo-lazy" lazy="5000" data-src="/wedding.jpg" style="width:100%">
+<img class="lazy" lazy="5000" data-src="/wedding.jpg" style="width:100%">
 ```
 ##### Iframe
 ```html
 <iframe width="949" height="534" src="https://www.youtube.com/embed/JvEvTcXF-4Q" frameborder="0" allowfullscreen></iframe>
 
-<iframe class="amigo-lazy" width="949" lazy="5000" height="534" data-src="https://www.youtube.com/embed/JvEvTcXF-4Q" frameborder="0" allowfullscreen></iframe>
+<iframe class="lazy" width="949" lazy="5000" height="534" data-src="https://www.youtube.com/embed/JvEvTcXF-4Q" frameborder="0" allowfullscreen></iframe>
 ```
 ##### Preventing Content Reflow 
 
