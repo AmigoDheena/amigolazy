@@ -1,13 +1,15 @@
-let amframe = document.querySelectorAll('.amigo-lazy');
+let amframe = document.querySelectorAll('.lazy');
 for(let i=0; i<amframe.length;i++){
-    let amsrc = amframe[i];
-    let amdata = amsrc.getAttribute("data-src");
-    let datanew = amsrc.getAttribute("lazy");
-    if(datanew === null){
-        datanew = 1500;
-    }
+  let amsrc = amframe[i];
+  let amdata = amsrc.getAttribute("data-src");
+  let datanew = amsrc.getAttribute("lazy");
+  if(datanew === null){
+      datanew = 1500;
+  }
+  window.onload = function(){
     setTimeout(function(){
-    amframe[i].setAttribute("src",amdata);
-    console.info(datanew + "ms Lazyloaded " + amframe[i].src);
-}, datanew);
+        amframe[i].setAttribute("src",amdata);
+        console.info(datanew + "ms Lazyloaded " + amframe[i].src);
+    }, datanew);
+  }
 }
