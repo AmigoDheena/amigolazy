@@ -1,4 +1,4 @@
-let amframe = document.querySelectorAll('.lazy');
+let amframe = document.querySelectorAll('.amigolazy');
 window.onload = function(){
   for(let i=0; i<amframe.length;i++){
     let amsrc = amframe[i];
