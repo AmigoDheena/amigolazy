@@ -43,6 +43,3 @@
 #### Contributors
 * **Munusamy**  - [Sadishsamy](https://github.com/sadishsamy)
 * **Mohan**  - [moaj257](https://github.com/moaj257)
-
-### With Special Thanks To!
-<a href="https://www.askantech.com"><img alt="Askan" src="https://www.askantech.com/wp-content/uploads/2018/11/askan-trademark-logo.png"/></a>
