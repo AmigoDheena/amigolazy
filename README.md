@@ -35,10 +35,10 @@
   }
 ```
 ##### Before Lazyload
-![before_amigolazy](/w3images/before_amigolazy.png "before_amigolazy")
+![before_amigolazy](/img/before_amigolazy.png "before_amigolazy")
 
 ##### After Lazyload
-![before_amigolazy](/w3images/after_amigolazy.png "after_amigolazy")
+![before_amigolazy](/img/after_amigolazy.png "after_amigolazy")
 
 #### Contributors
 * **Munusamy**  - [Sadishsamy](https://github.com/sadishsamy)
