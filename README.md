@@ -34,12 +34,7 @@
       background-color: #c0c0c0; /* optional */
   }
 ```
-##### Before Lazyload
-![before_amigolazy](/img/before_amigolazy.png "before_amigolazy")
-
-##### After Lazyload
-![before_amigolazy](/img/after_amigolazy.png "after_amigolazy")
 
 #### Contributors
-* **Munusamy**  - [Sadishsamy](https://github.com/sadishsamy)
-* **Mohan**  - [moaj257](https://github.com/moaj257)
+* **[Munusamy](https://github.com/sadishsamy)**
+* **[Mohan](https://github.com/moaj257)**
