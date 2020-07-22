@@ -1,4 +1,5 @@
 # AmigoLazy
+AmigoLazy is a JS Script to add Lazyload to an Iframe. Mostly Iframes are load data from an external site, so its contain lot of resources form external sites, we are unable to control that resources but we can prevent by lazyloading Iframe.
 
 #### How to use amigolazy
 
